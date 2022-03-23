@@ -10,8 +10,8 @@ jobs:
         name: SetUp_Lev
         command: |
           ls
-          sleep 1
-          sleep 2s
+          sleep 5s
+          sleep 3
 
     - run:
         name: SetUp_Go
