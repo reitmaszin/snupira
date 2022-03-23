@@ -11,14 +11,14 @@ jobs:
         command: |
           ls
           sleep 5s
-          sleep 3
+          sleep 3s
 
     - run:
         name: SetUp_Go
         command: |
           ls
           sleep 1s
-          sleep 2s
+          sleep 2
 
     - run:
         name: SetUp_Stop
